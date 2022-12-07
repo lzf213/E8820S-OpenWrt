@@ -12,6 +12,7 @@
 name: OpenWrt-E8820S 开源固件
 
 on: 
+  workflow_dispatch:
   release:
     types: [published]
 
